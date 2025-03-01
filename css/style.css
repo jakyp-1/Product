@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Poppins,sans-serif    ;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin-inline: auto;
+    padding-inline: 40px;
+    @media(max-width:1033px){
+        margin-inline: auto;
+        padding-inline: 20px;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 40px;
+}
+
+.header-had {
+    display: flex;
+    gap: 14px;
+}
+
+.header-had h1 {
+    font-size: clamp(1.25rem, 1.023rem + 1.14vw, 1.875rem);
+    font-weight: 600;
+    color: #173A56;
+}
+
+.header-end nav  {
+    display: flex;
+    align-items: center;
+    gap: 46px;    
+}
+
+.burger-menu {
+    display: none;
+}
+
+.burger-menu ion-icon{
+    font-size: clamp(1.063rem, 0.813rem + 1.25vw, 1.75rem);
+    color: #173A56;
+    width: 29px;
+    height: 29px;
+}
+
+
+ nav span {
+    font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+    font-weight: 600;
+}
+
+.header-end a {
+    font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+    color: #22343D;
+}
+
+.header-end {
+    display: flex;
+    gap: 20px;
+}
+
+.header-btn {
+    display: flex;
+    gap: 18px;
+}
+
+.header-btn :first-child {
+    width: 102px;
+    height: 43px;
+    color: #173A56;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 4px #000;
+    transition:0.8s;
+
+}
+
+.header-btn button:active{
+    background:rgb(193, 7, 7);
+    color: #fff;
+        box-shadow: 0 5px #ddd;
+        transform: translateY(  9px);
+}
+
+
+.header-btn :last-child {
+    width: 112px;
+    height: 43px;
+    color:#fff;
+    background-color:#02897A;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px #000;
+    transition:0.3s;
+
+}
+
+.header-btn button:active{
+    background:rgb(193, 7, 7);
+    color: #fff;
+        box-shadow: 0 5px #ddd;
+        transform: translateY(9px);
+}
+
+
+.head-end-img img {
+    background-color:#F3F3F3;
+    border-radius: 50%;
+}
+
+.head-end-img img {
+    margin-top: 5px;
+    width: 100%;
+    max-width: 32px;
+    height: 32px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 60px;
+    gap: 40px;
+}
+
+.main-contant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 22px;
+}
+
+.main-contant h1 {
+    font-size: clamp(1.375rem, 0.966rem + 2.05vw, 2.5rem);
+    font-weight: 700;
+    color: #22343D;
+    width: 100%;
+    max-width: 518px;
+    line-height: 60px;
+}
+
+.main-contant p {
+    font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
+    font-weight: 400;
+    line-height: 28px;
+    color: #22343D;
+    width: 100%;
+    max-width: 458px;
+}
+
+.main img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.main-btn :first-child  {
+    width: 100%;
+    max-width: 175px;
+    height: 53px;
+    background-color: #02897A;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+    cursor: pointer;
+    box-shadow: 0 7px #000;
+    transition:0.6s;
+
+}
+
+.main-btn :first-child:active{
+    background: #020989;
+    color: #fff;
+        box-shadow: 0 5px #ddd;
+        transform: translateY(  9px);
+}
+
+
+.main-btn :last-child {
+    width: 100%;
+    max-width: 145px;
+    color: #02897A;
+    font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+    border: none;
+    background-color: #fff;
+}
+
+.main-btn {
+    display: flex;
+    gap: 12px;
+}
+
+.main-btn img {
+    width: 100%;
+    max-width:20px;
+    color: #02897A;
+    margin-left: 18px;
+}
